@@ -1,0 +1,1 @@
+var _ = {escape:function(){}};

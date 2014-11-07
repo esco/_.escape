@@ -1,0 +1,32 @@
+{
+  "name": "_escape",
+  "version": "0.1.0",
+  "author": "Esco Obong <esco@hbyte.com>",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start karma-config.js --single-run --browsers Chrome",
+    "test-dev": "karma start karma-config.js --single-run --browsers Chrome Safari Firefox",
+    "test-all": "karma start karma-config.js --single-run"
+  },
+  "description": "escape function for precompiled templates",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "ibrik": "http://registry.npmjs.org/ibrik/-/ibrik-1.1.1.tgz",
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-chai-sinon": "*",
+    "karma-chrome-launcher": "*",
+    "karma-cli": "*",
+    "karma-coverage": "*",
+    "karma-firefox-launcher": "*",
+    "karma-ievms": "*",
+    "karma-junit-reporter": "*",
+    "karma-mocha": "*",
+    "karma-safari-launcher": "*",
+    "mocha": "*",
+    "sha": "http://registry.npmjs.org/sha/-/sha-1.2.3.tgz",
+    "sinon": "*",
+    "sinon-chai": "*",
+    "karma-spec-reporter": "0.0.13"
+  }
+}
