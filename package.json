@@ -20,11 +20,9 @@
     "karma-coverage": "*",
     "karma-firefox-launcher": "*",
     "karma-ievms": "*",
-    "karma-junit-reporter": "*",
     "karma-mocha": "*",
     "karma-safari-launcher": "*",
     "mocha": "*",
-    "sha": "http://registry.npmjs.org/sha/-/sha-1.2.3.tgz",
     "sinon": "*",
     "sinon-chai": "*",
     "karma-spec-reporter": "0.0.13"
